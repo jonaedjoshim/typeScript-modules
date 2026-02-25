@@ -6,20 +6,20 @@
 
     type FrontendDeveloper = {
         skills: string[],
-        desognation1: 'frontendDev'
+        designation1: 'frontendDev'
     }
 
     type BackendDeveloper = {
         skills: string[],
-        desognation2: 'backendDev'
+        designation2: 'backendDev'
     }
 
     type FullStackDeveloper = FrontendDeveloper & BackendDeveloper;
 
     const fullStackDeveloper: FullStackDeveloper = {
-        skills: ['html', 'css', 'javascript', 'nodejs', 'expressjs'],
-        desognation1: 'frontendDev',
-        desognation2: 'backendDev'
+        skills: ['html', 'css', 'javascript', 'node.js', 'express.js'],
+        designation1: 'frontendDev',
+        designation2: 'backendDev'
     }
 
     //union type
@@ -50,7 +50,7 @@
     }
 
     const user2: User = {
-        name: 'jamica',
+        name: 'jamaica',
         gender: 'female',
         bloodGroup: 'A-'
     }
