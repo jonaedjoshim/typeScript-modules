@@ -21,7 +21,15 @@
     }
     add(1, 2);
 
-    const user: GenericArray<{ name: string, age: number }> = [
+    //generic with interface
+
+    interface User {
+        name: string;
+        age: number;
+    }
+
+    // const user: GenericArray<{ name: string, age: number }> = [ // using generic with type directly
+    const user: GenericArray<User> = [ // using generic with interface
         {
             name: 'John',
             age: 30
